@@ -1,0 +1,11 @@
+read z;
+
+if 5 <= z and z < 10 or z = 2 then
+  write 5
+else
+  write 4
+end;
+
+if not z < 5 then
+  write 66
+end

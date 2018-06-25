@@ -1,0 +1,10 @@
+yes := 5;
+boop := 12/5;
+penis := 3*6;
+read num;
+write num;
+if 5 != 7 then
+  num := 5*8/9
+end;
+
+write num
