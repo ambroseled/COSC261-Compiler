@@ -14,5 +14,16 @@ Comparison = Expression Relation Expression
 Realation = *=*|*!=*|*<*|*<=*|*>*|*>=*  
 
 Expression = Term \(\(*+*|*-*\)Term)\*  
-Term = Factor\(\(*\**|/\)Factor\)\*  
-Factor = \(Expression\)|*number*|*identifier*
+Term = Factor\(\(*\**|*/*\)Factor\)\*  
+Factor = \(Expression\)|*number*|*identifier*  
+
+###Example Program
+*
+read n;  
+sum := 0;  
+while n > 0 do   
+  sum := sum + n;  
+  n := n - 1  
+end;  
+write sum  
+*
