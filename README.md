@@ -13,4 +13,6 @@ Assigment = *identifier :=* Expression
 Comparison = Expression Relation Expression  
 Realation = *=*|*!=*|*<*|*<=*|*>*|*>=*  
 
-Expression = Term \(\(*+*|*-*\) Term)\*
+Expression = Term \(\(*+*|*-*\)Term)\*  
+Term = Factor\(\(*\**|/\)Factor\)\*  
+Factor = \(Expression\)|*number*|*identifier*
