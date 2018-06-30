@@ -2,23 +2,15 @@
 Compiler for a basic custom programing language
 
 ## Language Gramar
-Program = Statements
+Program = Statements  
+Statements = Statement(;Statement)\*  
+Statement = If|While|Assigment  
 
-Statements = Statement(;Statement)\*
+If = *if* Comparison *then* Statements *end*  
+While = *while* Comparison *do* Statements *end*  
+Assigment = *identifier :=* Expression  
 
-Statement = If|While|Assigment
-
-
-If = *if* Comparison *then* Statements *end*
-
-While = *while* Comparison *do* Statements *end*
-
-Assigment = *identifier :=* Expression
-
-
-Comparison = Expression Relation Expression
-
-Realation = *=*|*!=*|*<*|*<=*|*>*|*>=*
-
+Comparison = Expression Relation Expression  
+Realation = *=*|*!=*|*<*|*<=*|*>*|*>=*  
 
 Expression = Term \(\(*+*|*-*\) Term)\*
