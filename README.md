@@ -1,4 +1,4 @@
-# Compiler
+# COSC261 Compiler
 Compiler for a basic custom programing language
 
 ## Language Gramar
