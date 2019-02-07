@@ -1,5 +1,5 @@
 # COSC261 Compiler
-Compiler for a basic custom programing language, developed as an assigment for COSC261-18
+Compiler for a basic custom programing language, developed as an assigment for COSC261-18 at the University of Canterbury.
 
 ## Language Gramar
 Program = Statements  
